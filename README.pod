@@ -1,0 +1,61 @@
+=head1 NAME
+
+dumpio2curl.pl - Extracts dumpio output from Apache logs for debugging and replaying.
+
+=head1 USAGE
+
+	./dumpio2curl.pl apache.log
+	tail -n 200 apache.log | ./dumpio2curl.pl
+	tail -n 200 apache.log | ./dumpio2curl.pl > replay.curl
+	bash replay.curl
+
+=head1 DESCRIPTION
+
+This program parses output from the Apache module mod_dumpio present in Apache 2.4.
+Prior versions of Apache use a slightly different and incompatible line format.
+
+If you are using a prior version of Apache I suggest looking at
+dumpio_parser.pl by Geoffrey Simmons, http://uplex.de/dumpio_parser
+
+Apache can be configured to output all input and/or output data. When presented
+in the log file the data is mixed in with other Apache logs as well as dump_io
+providing a lot of information about filesystem interactions.
+
+This program extracts just the data which was sent, ignoring all other log lines.
+
+Input log data is presented as a curl command. This is an easy to read format and
+allows trivial replaying of the request in a shell. The output can actually be
+executed as a bash script if desired.
+
+Output data is presented as the raw data transmitted, this is easy to understand
+and allows quick comparison to curl output if desired.
+# characters are prepended which allows the output to be used as a shell script.
+
+This program is designed to be used in a development environment with a controlled
+stimulus to be examined and repeated. It does not support multiple simultaneous
+requests. It has also not been tested on large exposed server log files.
+
+=head1 DEPENDENCIES
+
+This script does not rely on any non-core Perl modules.
+
+=head1 AUTHOR
+
+David Tulloh <dumpio-david@tulloh.id.au>
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2015 David Tulloh
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
