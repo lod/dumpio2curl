@@ -59,7 +59,7 @@ sub req_to_curl {
 
 while(<>) {
 	#[Wed Jan 07 10:50:05.743358 2015] [dumpio:trace7] [pid 21414] mod_dumpio.c(103): [client ::1:33975] mod_dumpio:  dumpio_in (data-HEAP): X-Forwarded-Server: localhost:88\r\n
-	my ($timestamp, $pid, $client, $direction, $data) = /^\[([^\]]*)\] \s+ \[dumpio:trace7\] \s+ \[pid \s+ (\d+)\].* \[client \s+ ::\d+:(\d+)\] \s+ mod_dumpio: \s+ dumpio_(\w+) \s+ \(data-HEAP\): \s+ (.*)$/x;
+	my ($timestamp, $pid, $client, $direction, $data) = /^\[([^\]]*)\]\s+\[dumpio:trace7\]\s+\[pid\s+(\d+)\].*\[client\s+([^\]]+)\]\s+mod_dumpio:\s+dumpio_(\w+)\s+\(data-HEAP\):\s+(.*)$/x;
 
 	next unless defined($timestamp);
 	next if $data =~ /^(\d+)\sbytes$/; # Just length, not content
