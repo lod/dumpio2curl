@@ -1,4 +1,4 @@
-# Tue Sep 13 09:58:28.422218 2016 - pid 18116 - client 127.0.0.1:37216
+# Tue Sep 13 09:58:28.422218 2016 - pid 5921:tid 140132736808704 - client 127.0.0.1:37216
 curl -v \
 --header "User-agent:" --header "Accept:" \
 --request "GET" \
@@ -12,7 +12,7 @@ curl -v \
 --header "Cache-Control: max-age=0" \
 http://localhost/
 
-# Tue Sep 13 09:58:28.423736 2016 - pid 18116 - client 127.0.0.1:37216
+# Tue Sep 13 09:58:28.423736 2016 - pid 5921:tid 140132736808704 - client 127.0.0.1:37216
 # HTTP/1.1 200 OK
 # Date: Mon, 12 Sep 2016 23:58:28 GMT
 # Server: Apache/2.4.10 (Debian)
@@ -28,7 +28,7 @@ http://localhost/
 # X\x93\xa9T\xed\x02
 
 
-# Tue Sep 13 09:58:35.002732 2016 - pid 18115 - client 127.0.0.1:37218
+# Tue Sep 13 09:58:35.002732 2016 - pid 2321:tid 123456789098765 - client 127.0.0.1:37218
 curl -v \
 --header "User-agent:" --header "Accept:" \
 --request "GET" \
@@ -42,7 +42,7 @@ curl -v \
 --header "Cache-Control: max-age=0" \
 http://localhost/icons/blank.gif
 
-# Tue Sep 13 09:58:35.003307 2016 - pid 18115 - client 127.0.0.1:37218
+# Tue Sep 13 09:58:35.003307 2016 - pid 2321:tid 123456789098765 - client 127.0.0.1:37218
 # HTTP/1.1 200 OK
 # Date: Mon, 12 Sep 2016 23:58:35 GMT
 # Server: Apache/2.4.10 (Debian)
@@ -56,7 +56,7 @@ http://localhost/icons/blank.gif
 # GIF89a\x14
 
 
-# Tue Sep 13 09:58:35.018872 2016 - pid 18115 - client 127.0.0.1:37218
+# Tue Sep 13 09:58:35.018872 2016 - pid 2321:tid 123456789098765 - client 127.0.0.1:37218
 curl -v \
 --header "User-agent:" --header "Accept:" \
 --request "GET" \
@@ -70,7 +70,7 @@ curl -v \
 --header "Cache-Control: max-age=0" \
 http://localhost/icons/folder.gif
 
-# Tue Sep 13 09:58:35.019318 2016 - pid 18115 - client 127.0.0.1:37218
+# Tue Sep 13 09:58:35.019318 2016 - pid 2321:tid 123456789098765 - client 127.0.0.1:37218
 # HTTP/1.1 200 OK
 # Date: Mon, 12 Sep 2016 23:58:35 GMT
 # Server: Apache/2.4.10 (Debian)

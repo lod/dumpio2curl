@@ -1,0 +1,192 @@
+# Manually added tid to dir_listing.in
+# Matching example pattern supplied below
+# [Thu Aug 18 10:14:52.708544 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 10.180.45.97:58463] mod_dumpio:  dumpio_in (data-HEAP): 38 bytes
+
+[Tue Sep 13 09:58:28.422115 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422208 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 16 bytes
+[Tue Sep 13 09:58:28.422218 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): GET / HTTP/1.1\r\n
+[Tue Sep 13 09:58:28.422233 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422243 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 17 bytes
+[Tue Sep 13 09:58:28.422249 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Host: localhost\r\n
+[Tue Sep 13 09:58:28.422256 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422265 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 82 bytes
+[Tue Sep 13 09:58:28.422271 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0\r\n
+[Tue Sep 13 09:58:28.422279 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422287 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 73 bytes
+[Tue Sep 13 09:58:28.422294 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n
+[Tue Sep 13 09:58:28.422301 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422309 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 57 bytes
+[Tue Sep 13 09:58:28.422315 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3\r\n
+[Tue Sep 13 09:58:28.422322 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422330 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 32 bytes
+[Tue Sep 13 09:58:28.422361 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Accept-Encoding: gzip, deflate\r\n
+[Tue Sep 13 09:58:28.422368 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422376 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 8 bytes
+[Tue Sep 13 09:58:28.422382 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): DNT: 1\r\n
+[Tue Sep 13 09:58:28.422388 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422396 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 24 bytes
+[Tue Sep 13 09:58:28.422401 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Connection: keep-alive\r\n
+[Tue Sep 13 09:58:28.422408 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422416 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 30 bytes
+[Tue Sep 13 09:58:28.422422 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Upgrade-Insecure-Requests: 1\r\n
+[Tue Sep 13 09:58:28.422428 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422436 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 26 bytes
+[Tue Sep 13 09:58:28.422441 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): Cache-Control: max-age=0\r\n
+[Tue Sep 13 09:58:28.422448 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:28.422456 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): 2 bytes
+[Tue Sep 13 09:58:28.422462 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_in (data-HEAP): \r\n
+[Tue Sep 13 09:58:28.422646 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422662 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422733 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422742 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422773 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422781 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422804 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422812 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422839 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422854 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422881 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422888 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422915 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422922 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.422990 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.422999 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423102 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423113 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423153 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423162 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423189 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423197 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423224 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423231 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423261 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423269 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423300 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423308 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423338 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423345 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423430 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of Require all granted: granted
+[Tue Sep 13 09:58:28.423439 2016] [authz_core:debug] [pid 5921:tid 140132736808704] mod_authz_core.c(809): [client 127.0.0.1:37216] AH01626: authorization result of <RequireAny>: granted
+[Tue Sep 13 09:58:28.423670 2016] [deflate:debug] [pid 5921:tid 140132736808704] mod_deflate.c(855): [client 127.0.0.1:37216] AH01384: Zlib: Compressed 749 to 390 : URL /
+[Tue Sep 13 09:58:28.423721 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(164): [client 127.0.0.1:37216] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:28.423729 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-HEAP): 251 bytes
+[Tue Sep 13 09:58:28.423736 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-HEAP): HTTP/1.1 200 OK\r\nDate: Mon, 12 Sep 2016 23:58:28 GMT\r\nServer: Apache/2.4.10 (Debian)\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 408\r\nKeep-Alive: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: text/html;charset=UTF-8\r\n\r\n
+[Tue Sep 13 09:58:28.423752 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(164): [client 127.0.0.1:37216] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:28.423759 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-IMMORTAL): 10 bytes
+[Tue Sep 13 09:58:28.423765 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-IMMORTAL): \x1f\x8b\b
+[Tue Sep 13 09:58:28.423771 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-HEAP): 390 bytes
+[Tue Sep 13 09:58:28.423776 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-HEAP): \x95\x92QO\xdb0\x10\xc7\xdf\xf9\x147?\xa0\xed\xa1\xbd\xb4\xc0\xd6\x81c\x04\t\x88J\xa5\xad\xd6Nh\x9axpb\xa7\xf6p\xe3\xc8\xb6\x10\xdb\xa7\x9f\x9bDP$\xd0\xb4'\xdf\xf9~w\xbe\xff\xf9\xe8\x87|\x91\xad\x7f,\xaf\xe0f};\x83\xe5\xf7\xcb\xd94\x032@\xbc;\xca\x10\xf3u\xde\x05\x8e\x86c\xb8\xd657\x88Ws\xc2\x0e\xa8\n[\xc3\x0e\x80*\xc9E<\x81\x06\x1d\x8cd\xd3Z\xc8'\xb0\x15 \xc5\xee&2\xd8C\xb4\xb0\xe2\xf7.w\xf4\x8a\x8bn[\x80\x17-\xbe3\x1d\xa3A\xc1#7zS\xa7$\xd8\x860\xaa\xb7\x1b\xf0\xaeL\t\xea\xd2\xd6\x1e\v\xc3\xeb\x87\xe1FW\x04\xb8\t)\xf99\xcd\x16\xf7\x91\xc3\xa0v\xd9\x8crPNV)9\xcf\xd2\xf9\xd9"\xcd\t\x9b\xf3\xad\xa4\xc8\xdffn#sA\xd8\x8c\xfb
+[Tue Sep 13 09:58:28.423785 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-POOL): 8 bytes
+[Tue Sep 13 09:58:28.423790 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(103): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (data-POOL): X\x93\xa9T\xed\x02
+[Tue Sep 13 09:58:28.423798 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (metadata-EOS): 0 bytes
+[Tue Sep 13 09:58:28.423866 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(164): [client 127.0.0.1:37216] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:28.423874 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (metadata-EOR): 0 bytes
+[Tue Sep 13 09:58:28.423918 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [speculative-nonblocking] 1 readbytes
+[Tue Sep 13 09:58:28.423933 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(164): [client 127.0.0.1:37216] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:28.423939 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (metadata-FLUSH): 0 bytes
+[Tue Sep 13 09:58:28.423959 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(140): [client 127.0.0.1:37216] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:33.426821 2016] [reqtimeout:info] [pid 5921:tid 140132736808704] [client 127.0.0.1:37216] AH01382: Request header read timeout
+[Tue Sep 13 09:58:33.426891 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(151): [client 127.0.0.1:37216] mod_dumpio: dumpio_in - 70007
+[Tue Sep 13 09:58:33.426916 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(164): [client 127.0.0.1:37216] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:33.426922 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (metadata-FLUSH): 0 bytes
+[Tue Sep 13 09:58:33.426928 2016] [dumpio:trace7] [pid 5921:tid 140132736808704] mod_dumpio.c(63): [client 127.0.0.1:37216] mod_dumpio:  dumpio_out (metadata-EOC): 0 bytes
+[Tue Sep 13 09:58:35.002622 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002724 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 31 bytes
+[Tue Sep 13 09:58:35.002732 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): GET /icons/blank.gif HTTP/1.1\r\n
+[Tue Sep 13 09:58:35.002746 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002758 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 17 bytes
+[Tue Sep 13 09:58:35.002765 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Host: localhost\r\n
+[Tue Sep 13 09:58:35.002771 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002779 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 82 bytes
+[Tue Sep 13 09:58:35.002785 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0\r\n
+[Tue Sep 13 09:58:35.002792 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002799 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 13 bytes
+[Tue Sep 13 09:58:35.002805 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Accept: */*\r\n
+[Tue Sep 13 09:58:35.002812 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002820 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 57 bytes
+[Tue Sep 13 09:58:35.002825 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3\r\n
+[Tue Sep 13 09:58:35.002832 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002839 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 32 bytes
+[Tue Sep 13 09:58:35.002845 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Accept-Encoding: gzip, deflate\r\n
+[Tue Sep 13 09:58:35.002852 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002859 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 8 bytes
+[Tue Sep 13 09:58:35.002865 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): DNT: 1\r\n
+[Tue Sep 13 09:58:35.002871 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002879 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 28 bytes
+[Tue Sep 13 09:58:35.002885 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Referer: http://localhost/\r\n
+[Tue Sep 13 09:58:35.002891 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002916 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 24 bytes
+[Tue Sep 13 09:58:35.002923 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Connection: keep-alive\r\n
+[Tue Sep 13 09:58:35.002930 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002937 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 26 bytes
+[Tue Sep 13 09:58:35.002943 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Cache-Control: max-age=0\r\n
+[Tue Sep 13 09:58:35.002949 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.002957 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 2 bytes
+[Tue Sep 13 09:58:35.002964 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): \r\n
+[Tue Sep 13 09:58:35.003135 2016] [authz_core:debug] [pid 2321:tid 123456789098765] mod_authz_core.c(809): [client 127.0.0.1:37218] AH01626: authorization result of Require all granted: granted, referer: http://localhost/
+[Tue Sep 13 09:58:35.003153 2016] [authz_core:debug] [pid 2321:tid 123456789098765] mod_authz_core.c(809): [client 127.0.0.1:37218] AH01626: authorization result of <RequireAny>: granted, referer: http://localhost/
+[Tue Sep 13 09:58:35.003292 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.003301 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-HEAP): 284 bytes
+[Tue Sep 13 09:58:35.003307 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-HEAP): HTTP/1.1 200 OK\r\nDate: Mon, 12 Sep 2016 23:58:35 GMT\r\nServer: Apache/2.4.10 (Debian)\r\nLast-Modified: Sat, 20 Nov 2004 20:16:24 GMT\r\nETag: "94-3e9564c23b600"\r\nAccept-Ranges: bytes\r\nContent-Length: 148\r\nKeep-Alive: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: image/gif\r\n\r\n
+[Tue Sep 13 09:58:35.003323 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.003329 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-FILE): 148 bytes
+[Tue Sep 13 09:58:35.003343 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-MMAP): GIF89a\x14
+[Tue Sep 13 09:58:35.003353 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-EOS): 0 bytes
+[Tue Sep 13 09:58:35.003417 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.003425 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-EOR): 0 bytes
+[Tue Sep 13 09:58:35.003466 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [speculative-nonblocking] 1 readbytes
+[Tue Sep 13 09:58:35.003479 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.003485 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-FLUSH): 0 bytes
+[Tue Sep 13 09:58:35.003499 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.018828 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 32 bytes
+[Tue Sep 13 09:58:35.018872 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): GET /icons/folder.gif HTTP/1.1\r\n
+[Tue Sep 13 09:58:35.018908 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.018920 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 17 bytes
+[Tue Sep 13 09:58:35.018926 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Host: localhost\r\n
+[Tue Sep 13 09:58:35.018933 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.018940 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 82 bytes
+[Tue Sep 13 09:58:35.018949 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0\r\n
+[Tue Sep 13 09:58:35.018958 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.018969 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 13 bytes
+[Tue Sep 13 09:58:35.018975 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Accept: */*\r\n
+[Tue Sep 13 09:58:35.018982 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.018990 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 57 bytes
+[Tue Sep 13 09:58:35.018995 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3\r\n
+[Tue Sep 13 09:58:35.019002 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.019009 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 32 bytes
+[Tue Sep 13 09:58:35.019040 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Accept-Encoding: gzip, deflate\r\n
+[Tue Sep 13 09:58:35.019047 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.019055 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 8 bytes
+[Tue Sep 13 09:58:35.019060 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): DNT: 1\r\n
+[Tue Sep 13 09:58:35.019066 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.019074 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 28 bytes
+[Tue Sep 13 09:58:35.019080 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Referer: http://localhost/\r\n
+[Tue Sep 13 09:58:35.019087 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.019094 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 24 bytes
+[Tue Sep 13 09:58:35.019100 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Connection: keep-alive\r\n
+[Tue Sep 13 09:58:35.019106 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.019120 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 26 bytes
+[Tue Sep 13 09:58:35.019127 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): Cache-Control: max-age=0\r\n
+[Tue Sep 13 09:58:35.019133 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:35.019141 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): 2 bytes
+[Tue Sep 13 09:58:35.019147 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_in (data-HEAP): \r\n
+[Tue Sep 13 09:58:35.019232 2016] [authz_core:debug] [pid 2321:tid 123456789098765] mod_authz_core.c(809): [client 127.0.0.1:37218] AH01626: authorization result of Require all granted: granted, referer: http://localhost/
+[Tue Sep 13 09:58:35.019242 2016] [authz_core:debug] [pid 2321:tid 123456789098765] mod_authz_core.c(809): [client 127.0.0.1:37218] AH01626: authorization result of <RequireAny>: granted, referer: http://localhost/
+[Tue Sep 13 09:58:35.019304 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.019312 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-HEAP): 283 bytes
+[Tue Sep 13 09:58:35.019318 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-HEAP): HTTP/1.1 200 OK\r\nDate: Mon, 12 Sep 2016 23:58:35 GMT\r\nServer: Apache/2.4.10 (Debian)\r\nLast-Modified: Sat, 20 Nov 2004 20:16:24 GMT\r\nETag: "e1-3e9564c23b600"\r\nAccept-Ranges: bytes\r\nContent-Length: 225\r\nKeep-Alive: timeout=5, max=99\r\nConnection: Keep-Alive\r\nContent-Type: image/gif\r\n\r\n
+[Tue Sep 13 09:58:35.019327 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.019333 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-FILE): 225 bytes
+[Tue Sep 13 09:58:35.019351 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(103): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (data-MMAP): GIF89a\x14
+[Tue Sep 13 09:58:35.019364 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-EOS): 0 bytes
+[Tue Sep 13 09:58:35.019419 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.019428 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-EOR): 0 bytes
+[Tue Sep 13 09:58:35.019457 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [speculative-nonblocking] 1 readbytes
+[Tue Sep 13 09:58:35.019469 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:35.019476 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-FLUSH): 0 bytes
+[Tue Sep 13 09:58:35.019489 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(140): [client 127.0.0.1:37218] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Tue Sep 13 09:58:40.020692 2016] [reqtimeout:info] [pid 2321:tid 123456789098765] [client 127.0.0.1:37218] AH01382: Request header read timeout
+[Tue Sep 13 09:58:40.020746 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(151): [client 127.0.0.1:37218] mod_dumpio: dumpio_in - 70007
+[Tue Sep 13 09:58:40.020772 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(164): [client 127.0.0.1:37218] mod_dumpio: dumpio_out
+[Tue Sep 13 09:58:40.020779 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-FLUSH): 0 bytes
+[Tue Sep 13 09:58:40.020786 2016] [dumpio:trace7] [pid 2321:tid 123456789098765] mod_dumpio.c(63): [client 127.0.0.1:37218] mod_dumpio:  dumpio_out (metadata-EOC): 0 bytes
