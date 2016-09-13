@@ -1,0 +1,10 @@
+language: perl
+perl:
+  - "5.22"
+  - "5.20"
+  - "5.14"
+
+# Packages used for testing
+install: cpanm --notest Test::More autodie Modern::Perl IPC::Run3
+
+script: prove

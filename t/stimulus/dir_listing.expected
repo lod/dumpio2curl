@@ -1,0 +1,80 @@
+# Tue Sep 13 09:58:28.422218 2016 - pid 18116 - client 127.0.0.1:37216
+curl -v \
+--header "User-agent:" --header "Accept:" \
+--request "GET" \
+--header "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0" \
+--header "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
+--header "Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3" \
+--header "Accept-Encoding: gzip, deflate" \
+--header "DNT: 1" \
+--header "Connection: keep-alive" \
+--header "Upgrade-Insecure-Requests: 1" \
+--header "Cache-Control: max-age=0" \
+http://localhost/
+
+# Tue Sep 13 09:58:28.423736 2016 - pid 18116 - client 127.0.0.1:37216
+# HTTP/1.1 200 OK
+# Date: Mon, 12 Sep 2016 23:58:28 GMT
+# Server: Apache/2.4.10 (Debian)
+# Vary: Accept-Encoding
+# Content-Encoding: gzip
+# Content-Length: 408
+# Keep-Alive: timeout=5, max=100
+# Connection: Keep-Alive
+# Content-Type: text/html;charset=UTF-8
+# \x95\x92QO\xdb0\x10\xc7\xdf\xf9\x147?\xa0\xed\xa1\xbd\xb4\xc0\xd6\x81c\x04\t\x88J\xa5\xad\xd6Nh\x9axpb\xa7\xf6p\xe3\xc8\xb6\x10\xdb\xa7\x9f\x9bDP$\xd0\xb4'\xdf\xf9~w\xbe\xff\xf9\xe8\x87|\x91\xad\x7f,\xaf\xe0f};\x83\xe5\xf7\xcb\xd94\x032@\xbc;\xca\x10\xf3u\xde\x05\x8e\x86c\xb8\xd657\x88Ws\xc2\x0e\xa8
+# [\xc3\x0e\x80*\xc9E<\x81\x06\x1d\x8cd\xd3Z\xc8'\xb0\x15 \xc5\xee&2\xd8C\xb4\xb0\xe2\xf7.w\xf4\x8a\x8bn[\x80\x17-\xbe3\x1d\xa3A\xc1#7zS\xa7$\xd8\x860\xaa\xb7\x1b\xf0\xaeL\t\xea\xd2\xd6\x1e\v\xc3\xeb\x87\xe1FW\x04\xb8\t)\xf99\xcd\x16\xf7\x91\xc3\xa0v\xd9\x8crPNV)9\xcf\xd2\xf9\xd9"\xcd\t\x9b\xf3\xad\xa4\xc8\xdffn#sA\xd8\x8c\xfb
+
+
+# Tue Sep 13 09:58:35.002732 2016 - pid 18115 - client 127.0.0.1:37218
+curl -v \
+--header "User-agent:" --header "Accept:" \
+--request "GET" \
+--header "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0" \
+--header "Accept: */*" \
+--header "Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3" \
+--header "Accept-Encoding: gzip, deflate" \
+--header "DNT: 1" \
+--header "Referer: http://localhost/" \
+--header "Connection: keep-alive" \
+--header "Cache-Control: max-age=0" \
+http://localhost/icons/blank.gif
+
+# Tue Sep 13 09:58:35.003307 2016 - pid 18115 - client 127.0.0.1:37218
+# HTTP/1.1 200 OK
+# Date: Mon, 12 Sep 2016 23:58:35 GMT
+# Server: Apache/2.4.10 (Debian)
+# Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+# ETag: "94-3e9564c23b600"
+# Accept-Ranges: bytes
+# Content-Length: 148
+# Keep-Alive: timeout=5, max=100
+# Connection: Keep-Alive
+# Content-Type: image/gif
+
+
+# Tue Sep 13 09:58:35.018872 2016 - pid 18115 - client 127.0.0.1:37218
+curl -v \
+--header "User-agent:" --header "Accept:" \
+--request "GET" \
+--header "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0" \
+--header "Accept: */*" \
+--header "Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3" \
+--header "Accept-Encoding: gzip, deflate" \
+--header "DNT: 1" \
+--header "Referer: http://localhost/" \
+--header "Connection: keep-alive" \
+--header "Cache-Control: max-age=0" \
+http://localhost/icons/folder.gif
+
+# Tue Sep 13 09:58:35.019318 2016 - pid 18115 - client 127.0.0.1:37218
+# HTTP/1.1 200 OK
+# Date: Mon, 12 Sep 2016 23:58:35 GMT
+# Server: Apache/2.4.10 (Debian)
+# Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+# ETag: "e1-3e9564c23b600"
+# Accept-Ranges: bytes
+# Content-Length: 225
+# Keep-Alive: timeout=5, max=99
+# Connection: Keep-Alive
+# Content-Type: image/gif
