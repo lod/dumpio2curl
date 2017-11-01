@@ -1,12 +1,12 @@
 =for html <a href="https://travis-ci.org/lod/dumpio2curl"><img src="https://travis-ci.org/lod/dumpio2curl.svg?branch=master"></a>
 
-=head1 NAME
+=head1 dumpio2curl
 
 dumpio2curl.pl - Extracts dumpio output from Apache logs for debugging and replaying.
 
-=head1 USAGE
+=head2 USAGE
 
-	./dumpio2curl.pl apache.log
+	$ ./dumpio2curl.pl apache.log
 	# Tue Sep 13 09:58:28.422218 2016 - pid 18116 - client 127.0.0.1:37216
 	curl -v \
 	--header "User-agent:" --header "Accept:" \
@@ -21,11 +21,11 @@ dumpio2curl.pl - Extracts dumpio output from Apache logs for debugging and repla
 	--header "Cache-Control: max-age=0" \
 	http://localhost/
 
-	tail -n 200 apache.log | ./dumpio2curl.pl
-	tail -n 200 apache.log | ./dumpio2curl.pl > replay.curl
-	bash replay.curl
+	$ tail -n 200 apache.log | ./dumpio2curl.pl
+	$ tail -n 200 apache.log | ./dumpio2curl.pl > replay.curl
+	$ bash replay.curl
 
-=head1 DESCRIPTION
+=head2 DESCRIPTION
 
 This program parses output from the Apache module mod_dumpio present in Apache 2.4.
 Prior versions of Apache use a slightly different and incompatible line format.
@@ -51,17 +51,17 @@ This program is designed to be used in a development environment with a controll
 stimulus to be examined and repeated. It does not support multiple simultaneous
 requests. It has also not been tested on large exposed server log files.
 
-=head1 DEPENDENCIES
+=head2 DEPENDENCIES
 
 This script does not rely on any non-core Perl modules.
 
 The test scripts use a few convenient and commonly distributed modules.
 
-=head1 AUTHOR
+=head2 AUTHOR
 
 David Tulloh <dumpio-david@tulloh.id.au>
 
-=head1 LICENSE AND COPYRIGHT
+=head2 LICENSE AND COPYRIGHT
 
 Copyright 2015-2017 David Tulloh
 
