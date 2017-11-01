@@ -1,0 +1,12 @@
+# Fri Aug 19 10:14:56.716525 2016 - pid 30473:tid 140505350334208 - client 192.168.5.6:45318
+# 0
+
+
+# Fri Aug 19 10:14:56.945673 2016 - pid 30473:tid 140505569371904 - client 192.168.5.6:45318
+curl -v \
+--header "User-agent:" --header "Accept:" \
+--request "POST" \
+--header "User-Agent: PHP-SOAP/5.6.12" \
+--header "Content-Type: application/soap+xml; charset=utf-8; action=\"storeStoreRepositoryV1GetList\"" \
+--header "Content-Length: 272" \
+http:///soap/ita?services=storeStoreRepositoryV1

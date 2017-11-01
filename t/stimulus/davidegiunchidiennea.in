@@ -1,0 +1,23 @@
+[Fri Aug 19 10:14:56.716515 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_out (data-IMMORTAL): 2 bytes
+[Fri Aug 19 10:14:56.716525 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(103): [client 192.168.5.6:45318] mod_dumpio: dumpio_out (data-IMMORTAL): \r\n
+[Fri Aug 19 10:14:56.716550 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(164): [client 192.168.5.6:45318] mod_dumpio: dumpio_out
+[Fri Aug 19 10:14:56.716553 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_out (data-IMMORTAL): 5 bytes
+[Fri Aug 19 10:14:56.716555 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(103): [client 192.168.5.6:45318] mod_dumpio: dumpio_out (data-IMMORTAL): 0\r\n\r\n
+[Fri Aug 19 10:14:56.716558 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_out (metadata-EOS): 0 bytes
+[Fri Aug 19 10:14:56.716578 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(164): [client 192.168.5.6:45318] mod_dumpio: dumpio_out
+[Fri Aug 19 10:14:56.716581 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_out (metadata-EOR): 0 bytes
+[Fri Aug 19 10:14:56.716634 2016] [dumpio:trace7] [pid 30473:tid 140505350334208] mod_dumpio.c(140): [client 192.168.5.6:45318] mod_dumpio: dumpio_in [speculative-nonblocking] 1 readbytes
+[Fri Aug 19 10:14:56.945637 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(140): [client 192.168.5.6:45318] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Fri Aug 19 10:14:56.945669 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): 57 bytes
+[Fri Aug 19 10:14:56.945673 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(103): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): POST /soap/ita?services=storeStoreRepositoryV1 HTTP/1.1\r\n
+[Fri Aug 19 10:14:56.945683 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(140): [client 192.168.5.6:45318] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Fri Aug 19 10:14:56.945686 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): 29 bytes
+[Fri Aug 19 10:14:56.945689 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(103): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): User-Agent: PHP-SOAP/5.6.12\r\n
+[Fri Aug 19 10:14:56.945692 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(140): [client 192.168.5.6:45318] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Fri Aug 19 10:14:56.945695 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): 91 bytes
+[Fri Aug 19 10:14:56.945698 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(103): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): Content-Type: application/soap+xml; charset=utf-8; action="storeStoreRepositoryV1GetList"\r\n
+[Fri Aug 19 10:14:56.945701 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(140): [client 192.168.5.6:45318] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Fri Aug 19 10:14:56.945704 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): 21 bytes
+[Fri Aug 19 10:14:56.945706 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(103): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): Content-Length: 272\r\n
+[Fri Aug 19 10:14:56.945709 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(140): [client 192.168.5.6:45318] mod_dumpio: dumpio_in [getline-blocking] 0 readbytes
+[Fri Aug 19 10:14:56.945712 2016] [dumpio:trace7] [pid 30473:tid 140505569371904] mod_dumpio.c(63): [client 192.168.5.6:45318] mod_dumpio: dumpio_in (data-HEAP): 56 bytes
