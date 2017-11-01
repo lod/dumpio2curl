@@ -7,6 +7,20 @@ dumpio2curl.pl - Extracts dumpio output from Apache logs for debugging and repla
 =head1 USAGE
 
 	./dumpio2curl.pl apache.log
+	# Tue Sep 13 09:58:28.422218 2016 - pid 18116 - client 127.0.0.1:37216
+	curl -v \
+	--header "User-agent:" --header "Accept:" \
+	--request "GET" \
+	--header "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0" \
+	--header "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
+	--header "Accept-Language: en-AU,en-GB;q=0.8,en;q=0.5,en-US;q=0.3" \
+	--header "Accept-Encoding: gzip, deflate" \
+	--header "DNT: 1" \
+	--header "Connection: keep-alive" \
+	--header "Upgrade-Insecure-Requests: 1" \
+	--header "Cache-Control: max-age=0" \
+	http://localhost/
+
 	tail -n 200 apache.log | ./dumpio2curl.pl
 	tail -n 200 apache.log | ./dumpio2curl.pl > replay.curl
 	bash replay.curl
@@ -41,13 +55,15 @@ requests. It has also not been tested on large exposed server log files.
 
 This script does not rely on any non-core Perl modules.
 
+The test scripts use a few convenient and commonly distributed modules.
+
 =head1 AUTHOR
 
 David Tulloh <dumpio-david@tulloh.id.au>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2015-2016 David Tulloh
+Copyright 2015-2017 David Tulloh
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
